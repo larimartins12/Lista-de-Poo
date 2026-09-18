@@ -41,6 +41,7 @@ public class Exercicio5Controller {
     @FXML
     void btLimparClick(ActionEvent event) {
         lvList.getItems().clear();
+        lblQuant.setText("0");
 
     }
 
